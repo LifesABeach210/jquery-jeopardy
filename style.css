@@ -1,0 +1,58 @@
+
+#body{
+    background-color: gray;
+}
+
+
+
+
+#gameBoxGame{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+    grid-gap: 2px;
+    justify-content: center;
+align-items: center;
+margin-top: 100px;
+justify-content: space-between;
+background-color: darkblue;
+border: solid gold 8px;
+}
+
+
+.GameBox{
+    display: grid;
+  grid-template-rows: auto;
+    justify-content: space-between;
+    border: solid black 2px;
+  padding: 5px;
+  margin: 10px;
+color: white;
+height: 150px;
+width: 150px;
+}
+
+
+#Btn1{
+    height: 35px;
+    width: 75px;
+}
+    
+-- {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space:normal; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 10s steps(40, end),
+      blink-caret .75s step-end infinite;
+  text-align: center;
+    color: white;
+
+    }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
